@@ -1,0 +1,46 @@
+.contact{
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact_bg{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    transform: rotateX(180deg);
+    object-fit: fill;
+    z-index: -1;
+}
+
+.contact_banner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact_big{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_title{
+    position: relative;
+    font-weight: 800;
+    font-size: 3.5rem;
+    width: 400px;
+}
+.contact_subtitle{
+    color: red;
+    font-size: 1.3rem;
+}
+
+.contact_list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
